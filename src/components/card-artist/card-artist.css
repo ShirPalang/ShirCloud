@@ -1,0 +1,28 @@
+.musics-card {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(235, 235, 235, 0.3647058824);
+  position: relative;
+}
+.musics-card .cover {
+  width: 60px;
+  height: 60px;
+}
+.musics-card .cover img {
+  width: 100%;
+  height: 100%;
+}
+.musics-card .title {
+  margin: 0 20px;
+}
+.musics-card .title h3 {
+  color: #ebebeb;
+}
+.musics-card ::slotted(a) {
+  color: #ebebeb;
+  text-decoration: none;
+  position: absolute;
+  right: 40px;
+  font-weight: bold;
+}/*# sourceMappingURL=card-artist.css.map */

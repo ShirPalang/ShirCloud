@@ -1,0 +1,241 @@
+.cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.music-container {
+  margin-top: 20px;
+  min-height: 45vh;
+}
+
+.lib-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.lib-header .lib-title {
+  color: #ebebeb;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.lib-container {
+  margin-top: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #080808;
+}
+
+#website {
+  display: none;
+}
+
+.container {
+  width: 85%;
+  margin: 35px auto;
+  min-height: calc(100vh - 70px - 105px - 35px);
+}
+
+.search-container {
+  min-height: calc(100vh - 70px);
+  background-color: #181818;
+  display: none;
+}
+
+.wave-container {
+  z-index: 1000;
+  bottom: 0;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8235294118);
+  transition: 0.5s;
+}
+.wave-container .cancelBtn {
+  display: none;
+}
+.wave-container .control-buttons {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wave-container .control-buttons button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.wave-container .control-buttons button i {
+  color: #ebebeb;
+  font-size: 40px;
+}
+.wave-container .save-button {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wave-container .save-button i {
+  color: #ebebeb;
+  font-size: 30px;
+}
+.wave-container .waveform {
+  margin: 0 20px;
+  background-color: black;
+  width: 800px;
+  height: 70%;
+}
+.wave-container .waveform #waveform {
+  height: 100%;
+  width: 100%;
+}
+.wave-container .music-details {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+}
+.wave-container .music-details .music-cover {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+}
+.wave-container .music-details .music-cover img {
+  width: 100%;
+  height: 100%;
+}
+.wave-container .music-details .music-title {
+  margin-left: 20px;
+  height: 60px;
+  padding: 10px 0;
+  line-height: 25px;
+}
+.wave-container .music-details .music-title .music-played {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ebebeb;
+}
+.wave-container .music-details .music-title .artist-played {
+  font-size: 15px;
+  font-weight: bold;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.full-size {
+  height: 100vh;
+  background-color: #000000;
+  z-index: 1000;
+}
+.full-size .cancelBtn {
+  color: #ebebeb;
+  display: block;
+  font-size: 100px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.full-size .waveform {
+  height: 200px;
+  width: 799px;
+}
+.full-size .music-details {
+  width: 35%;
+  height: 200px;
+}
+.full-size .music-details .music-cover {
+  margin: 0 20px;
+  height: 100%;
+  width: 200px;
+  min-height: 99%;
+  min-width: 200px;
+}
+.full-size .music-details .music-title {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.full-size .music-details .music-title .music-played {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.full-size .music-details .music-title .artist-played {
+  font-size: 20px;
+}
+.full-size .control-buttons {
+  height: 70px;
+  margin: 0 20px 0 0;
+}
+.full-size .control-buttons button i {
+  font-size: 50px;
+}
+.full-size .save-button {
+  height: 70px;
+  margin: 0 10px 0 10px;
+}
+.full-size .save-button i {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+  .wave-container {
+    bottom: 70px;
+    background-color: #0c0c0c;
+    justify-content: left;
+    height: 55px;
+    padding: 0 20px;
+  }
+  .wave-container .save-button {
+    display: flex;
+    position: absolute;
+    right: 10px;
+  }
+  .wave-container .save-button i {
+    font-size: 30px;
+  }
+  .wave-container .waveform {
+    display: none;
+  }
+  .wave-container .control-buttons button i {
+    font-size: 30px;
+  }
+  .wave-container .music-details .music-cover {
+    display: none;
+  }
+  .wave-container .music-details .music-title {
+    line-height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .wave-container .music-details .music-title .music-played {
+    font-size: 17px;
+  }
+  .wave-container .music-details .music-title .artist-played {
+    font-size: 13px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .full-size {
+    height: calc(100vh - 70px);
+  }
+}/*# sourceMappingURL=style.css.map */

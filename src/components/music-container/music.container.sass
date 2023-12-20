@@ -1,0 +1,34 @@
+$primaryColor: #080808
+$secondaryColor: #ebebeb
+    
+.music-container
+    width: 100%
+    height: 300px
+    margin-bottom: 140px
+    .header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 8px
+        .title
+            color: $secondaryColor
+        .buttons
+            display: flex
+            justify-content: space-between
+            width: 180px
+            button
+                padding: 10px
+                border: none
+                border-radius: 20px
+                outline: none
+                font-size: 15px
+                color: $secondaryColor
+                background-color: #ffffff00
+                transition: 0.2s
+            button:hover
+                box-shadow: 0 0 8px $secondaryColor
+    ::slotted(div)
+        width: 100%
+        height: fit-content
+        display: flex
+        overflow: auto

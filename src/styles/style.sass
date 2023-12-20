@@ -1,0 +1,180 @@
+@import home
+@import artist
+@import library
+
+$primaryColor: #080808
+$secondaryColor: #ebebeb
+$thirdColor: #181818
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: sans-serif
+
+body
+    background-color: $primaryColor
+
+#website
+    display: none
+
+.container
+    width: 85%
+    margin: 35px auto
+    min-height: calc( 100vh - 70px - 105px - 35px)
+
+.search-container
+    min-height: calc(100vh - 70px)
+    background-color: $thirdColor
+    display: none
+
+.wave-container
+    z-index: 1000
+    bottom: 0
+    position: sticky
+    bottom: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 70px
+    width: 100%
+    background-color: #000000d2
+    transition: 0.5s
+    .cancelBtn
+        display: none
+    .control-buttons
+        width: 50px
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        button
+            background-color: #ffffff00
+            border: none
+            outline: none
+            height: fit-content
+            i
+                color: $secondaryColor
+                font-size: 40px
+    .save-button
+        width: 50px
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        i
+            color: $secondaryColor
+            font-size: 30px
+    .waveform
+        margin: 0 20px
+        background-color: black
+        width: 800px
+        height: 70%
+        #waveform
+            height: 100%
+            width: 100%
+    .music-details
+        display: flex
+        align-items: center
+        height: 100%
+        width: 300px
+        .music-cover
+            width: 60px
+            height: 60px
+            min-width: 60px
+            min-height: 60px
+            img
+                width: 100%
+                height: 100%
+        .music-title
+            margin-left: 20px
+            height: 60px
+            padding: 10px 0
+            line-height: 25px
+            .music-played
+                font-size: 20px
+                font-weight: bold
+                color: $secondaryColor
+            .artist-played
+                font-size: 15px
+                font-weight: bold
+                color: #b3b3b3
+                text-decoration: none
+.full-size
+    height: 100vh
+    background-color: #000000
+    z-index: 1000
+    .cancelBtn
+        color: $secondaryColor
+        display: block
+        font-size: 100px
+        position: absolute
+        top: 0
+        right: 20px
+    .waveform
+        height: 200px
+        width: 799px
+    .music-details
+        width: 35%
+        height: 200px
+        .music-cover
+            margin: 0 20px
+            height: 100%
+            width: 200px
+            min-height: 99%
+            min-width: 200px
+        .music-title
+            width: fit-content
+            .music-played
+                font-size: 30px
+                margin: 10px 0
+            .artist-played
+                font-size: 20px
+    .control-buttons
+        height: 70px
+        margin: 0 20px 0 0
+        button
+            i
+                font-size: 50px
+    .save-button
+        height: 70px
+        margin: 0 10px 0 10px
+        i
+            font-size: 40px
+
+@media screen and ( max-width: 640px )
+    .container
+        width: 100%
+    .wave-container
+        bottom: 70px
+        background-color: #0c0c0c
+        justify-content: left
+        height: 55px
+        padding: 0 20px
+        .save-button
+            display: flex
+            position: absolute
+            right: 10px
+            i
+                font-size: 30px
+        .waveform
+            display: none
+        .control-buttons
+            button
+                i
+                    font-size: 30px
+        .music-details
+            .music-cover
+                display: none
+            .music-title
+                line-height: 23px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                .music-played
+                    font-size: 17px
+                .artist-played
+                    font-size: 13px
+                    width: fit-content
+    .full-size
+        height: calc( 100vh - 70px )

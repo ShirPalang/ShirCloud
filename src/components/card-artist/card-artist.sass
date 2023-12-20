@@ -1,0 +1,26 @@
+$primaryColor: #080808
+$secondaryColor: #ebebeb
+$thirdColor: #181818
+
+.musics-card
+    padding: 10px
+    display: flex
+    align-items: center
+    border-bottom: 1px solid #ebebeb5d
+    position: relative
+    .cover
+        width: 60px
+        height: 60px
+        img
+            width: 100%
+            height: 100%
+    .title
+        margin: 0 20px
+        h3
+            color: $secondaryColor
+    ::slotted(a)
+        color: $secondaryColor
+        text-decoration: none
+        position: absolute
+        right: 40px
+        font-weight: bold

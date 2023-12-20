@@ -1,0 +1,22 @@
+.profile-container {
+  background-color: #181818;
+  padding: 50px;
+}
+.profile-container .information-profile {
+  display: flex;
+  align-items: center;
+}
+.profile-container .information-profile .profile-pic {
+  width: 200px;
+  height: 200px;
+  margin: 0 35px;
+}
+.profile-container .information-profile .profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+.profile-container .information-profile .artist-titles h1 {
+  color: #ebebeb;
+  font-size: 50px;
+}/*# sourceMappingURL=profile.css.map */

@@ -1,0 +1,41 @@
+nav {
+  background-color: #181818;
+}
+nav .navbar {
+  display: flex;
+  justify-content: center;
+}
+nav .navbar ul {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+nav .navbar ul .input-item input {
+  outline: none;
+  border: none;
+  width: 230px;
+  height: 28px;
+  border-radius: 5px;
+  padding-left: 12px;
+  font-size: 15px;
+}
+
+::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.7333333333);
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.7333333333);
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+  }
+}/*# sourceMappingURL=Navbar-site.css.map */

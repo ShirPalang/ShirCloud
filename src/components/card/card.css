@@ -1,0 +1,27 @@
+.card {
+  margin: 0 10px;
+  width: 200px;
+  min-width: 200px;
+  padding: 7px;
+}
+.card .cover {
+  width: 100%;
+  height: 200px;
+}
+.card .cover img {
+  width: 100%;
+  height: 100%;
+}
+.card .details .music-title {
+  color: #ebebeb;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.card .details ::slotted(a) {
+  display: block;
+  font-weight: bold;
+  color: #c0c0c0;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 10px 0;
+}/*# sourceMappingURL=card.css.map */

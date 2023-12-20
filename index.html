@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="public/favicon.png">
+    <title>ShirCloud | Home</title>
+</head>
+<body>
+    <!-- loading -->
+    <loading-site></loading-site>
+    <!-- main -->
+    <div id="website">
+        <div class="nav-container">
+            <navbar-site>
+                <li slot="item"><a href="/" class="spa-link link" style="color: #ebebeb; text-decoration: none;">Home</a></li>
+                <li slot="item"><a href="/library" class="spa-link link" style="color: #ebebeb; text-decoration: none;">Library</a></li>
+                <li slot="item"><a href="/explore" class="spa-link link" style="color: #ebebeb; text-decoration: none;">Explore</a></li>
+            </navbar-site>
+        </div>
+        <div class="search-container">
+        </div>
+        <div id="content">
+            <!-- site content -->
+        </div>
+        <!-- wave form -->
+        <div class="wave-container">
+            <div class="cancelBtn"><i class="ri-arrow-drop-down-line"></i></div>
+            <div class="save-button">
+                <i class="ri-play-list-add-line"></i>
+            </div>
+            <div class="control-buttons">
+            </div>
+            <div class="waveform">
+                <div id="waveform">
+                </div>
+            </div>
+            <div class="music-details">
+                <div class="music-cover">
+                </div>
+                <div class="music-title">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/js/app.js"></script>
+    <script type="module" src="src/js/spa.js"></script>
+</body>
+</html>

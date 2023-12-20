@@ -1,0 +1,26 @@
+$primaryColor: #080808
+$secondaryColor: #ebebeb
+
+.card
+    margin: 0 10px
+    width: 200px
+    min-width: 200px
+    padding: 7px
+    .cover
+        width: 100%
+        height: 200px
+        img
+            width: 100%
+            height: 100%
+    .details
+        .music-title
+            color: $secondaryColor
+            font-size: 20px
+            margin: 15px 0
+        ::slotted(a)
+            display: block
+            font-weight: bold
+            color: #c0c0c0
+            text-decoration: none
+            font-size: 15px
+            margin: 10px 0

@@ -1,0 +1,31 @@
+{
+    "artists":[
+        {"id": 1 , "name" : "Hichkas" , "profilePic" : "./public/media/ProfilePics/hichkas/HichkasProfile.jpg"} ,
+        {"id": 2 , "name" : "Tohi" , "profilePic" : "./public/media/ProfilePics/tohi/TohiProfile.jpg"} ,
+        {"id": 3 , "name" : "Erfan" , "profilePic" : "./public/media/ProfilePics/erfan/erfanProfile.jpg"} 
+        
+    ] ,
+    "musics":[
+        {"id" : 1 , "title" : "Khalafkaraye Asli" , "audio" : "../public/media/audio/hichkas/Khalfkaraye Asli.mp3" , "cover" : "../public/media/pics/hichkas/khalafkarayeAsli.jpg" , "category": "rap all" ,"artistName" : "Hichkas" , "artistId" : 1} ,
+
+        {"id" : 2 , "title" : "Barpa" , "audio" : "../public/media/audio/hichkas/Barpa.mp3" , "cover" : "../public/media/pics/hichkas/barpa.jpg" , "category": "rap all" , "artistName" : "Hichkas" , "artistId" : 1},
+
+        {"id" : 3 , "title" : "Bezan" , "audio" : "../public/media/audio/hichkas/bezan.mp3" , "cover" : "../public/media/pics/hichkas/bezan.jpg" , "category": "rap all" , "artistName" : "Hichkas" , "artistId" : 1},
+
+        {"id" : 4 , "title" : "Shabi Gorga ft Quf" , "audio" : "../public/media/audio/hichkas/Shabi Gorga.mp3" , "cover" : "../public/media/pics/hichkas/shabigorga.jpg" , "category": "rap all" , "artistName" : "Hichkas" , "artistId" : 1},
+
+        {"id" : 5 , "title" : "Ye Mosht Sarbaz" , "audio" : "../public/media/audio/hichkas/Ye Mosht Sarbaz.mp3" , "cover" : "../public/media/pics/hichkas/ye mosht sarbaz.jpg" , "category": "rap all" , "artistName" : "Hichkas" , "artistId" : 1} ,
+
+        {"id" : 6 , "title" : "Balatar ft Khaled" , "audio" : "../public/media/audio/tohi/balatar-Tohi.mp3" , "cover" : "../public/media/pics/tohi/balatar.jpg" , "category": "pop all" , "artistName" : "Tohi" , "artistId" : 2} ,
+
+        {"id" : 7 , "title" : "Shokret" , "audio" : "../public/media/audio/tohi/Reza Pishro - Shokret (Ft Tohi & Amir Tataloo).mp3" , "cover" : "../public/media/pics/tohi/shokret.jpg" , "category": "rap all" , "artistName" : "Tohi" , "artistId" : 2},
+
+        {"id" : 8 , "title" : "Chetori Gol" , "audio" : "../public/media/audio/tohi/Tohi - Chetori Gol.mp3" , "cover" : "../public/media/pics/tohi/chetori gol.jpg" , "category": "pop all" , "artistName" : "Tohi" , "artistId" : 2} ,
+
+        {"id" : 9 , "title" : "Nazanin ft Andy" , "audio" : "../public/media/audio/tohi/Tohi Ft Andy - Nazanin.mp3" , "cover" : "../public/media/pics/tohi/nazanin.jpg" , "category": "pop all" , "artistName" : "Tohi" , "artistId" : 2} ,
+
+        {"id" : 10 , "title" : "Dobareh ft Morvarid" , "audio" : "../public/media/audio/erfan/Dobareh-FT-Morvarid-by-Erfan.mp3" , "cover" : "../public/media/pics/erfan/dobareh.jpg" , "category": "rap all" , "artistName" : "Erfan" , "artistId" : 3} ,
+
+        {"id" : 11 , "title" : "Ooh" , "audio" : "../public/media/audio/tohi/Hossein Tohi - Ooh.mp3" , "cover" : "../public/media/pics/tohi/ooh.jpg" , "category": "pop all" , "artistName" : "Tohi" , "artistId" : 3} 
+    ]
+}
