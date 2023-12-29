@@ -2,20 +2,20 @@
 
 <p>My first project on GitHub</p>
 
-## Project implementation:
+## Setup project:
 
-### install packages
+### 1. install packages
 
-```
-cd database
+-   ```
+    cd database
 
-npm i
-```
+    npm i
+    ```
 
-### run JSON Server
+### 2. run JSON Server
 
-```
-json-server --watch db.json
-```
+-   ```
+    json-server --watch db.json
+    ```
 
-## and run project with Live Server
+### 3. and run project with Live Server
