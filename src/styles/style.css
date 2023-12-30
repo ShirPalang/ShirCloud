@@ -274,4 +274,12 @@ body {
   .full-size .control-buttons button i {
     font-size: 50px;
   }
+  .full-size .waveform {
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    width: 90%;
+    height: 45px;
+    position: fixed;
+    bottom: 25%;
+  }
 }/*# sourceMappingURL=style.css.map */
