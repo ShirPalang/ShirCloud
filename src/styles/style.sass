@@ -22,6 +22,7 @@ body
     width: 85%
     margin: 35px auto
     min-height: calc( 100vh - 70px - 105px - 35px)
+    min-height: 100vh
 
 .search-container
     min-height: calc(100vh - 70px)
@@ -145,6 +146,7 @@ body
 @media screen and ( max-width: 640px )
     .container
         width: 100%
+        margin: 0
     .wave-container
         bottom: 70px
         background-color: #0c0c0c
@@ -178,3 +180,37 @@ body
                     width: fit-content
     .full-size
         height: calc( 100vh - 70px )
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        .music-details
+            flex-direction: column
+            align-items: center
+            width: fit-content
+            gap: 20px
+            .music-cover
+                display: block
+            .music-title
+                margin: 0
+                display: flex
+                flex-direction: column
+                align-items: center
+                .music-played
+                    font-size: 35px
+        .save-button
+            bottom: 50px
+            right: 70px
+        .control-buttons
+            margin: 0
+            position: absolute
+            bottom: 50px
+            button
+                i
+                    font-size: 50px
+        .waveform
+            background-color: #00000000
+            display: block
+            width: 90%
+            height: 45px
+            position: fixed
+            bottom: 25%
