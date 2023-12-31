@@ -1,6 +1,6 @@
 # ShirCloud
 
-<p>My first project on GitHub</p>
+<p>Music streaming site with raw js and sass as spa and component base</p>
 
 ### Language and Tools:
 
@@ -9,7 +9,9 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-and Json Server & wavesurfer.js
+## Package's:
+ - JSON Server
+ - Wafesurfer.js
 
 ## Setup project:
 
