@@ -36,4 +36,19 @@
   height: fit-content;
   display: flex;
   overflow: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .music-container {
+    height: 170px;
+  }
+  .music-container .header {
+    display: block;
+  }
+  .music-container .header .buttons {
+    display: none;
+  }
+  .music-container .header .title {
+    font-size: 27px;
+  }
 }/*# sourceMappingURL=music.container.css.map */
