@@ -10,8 +10,8 @@
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 ## Package's:
-- ### JSON Server
-- ### Wafesurfer.js
+ - JSON Server
+ - Wafesurfer.js
 
 ## Setup project:
 
