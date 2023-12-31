@@ -37,6 +37,23 @@ nav .navbar ul .input-item input {
     bottom: 0;
     width: 100%;
     z-index: 2;
+  }
+  nav .navbar ul {
+    font-size: 15px;
     padding: 0;
+  }
+  nav .navbar ul .input-item {
+    position: fixed;
+    top: 0;
+    background-color: #181818;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .navbar ul .input-item input {
+    width: 70%;
+    height: 55%;
   }
 }/*# sourceMappingURL=Navbar-site.css.map */
