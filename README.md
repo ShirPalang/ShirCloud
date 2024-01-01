@@ -1,6 +1,8 @@
 # ShirCloud
 
-<p>Music streaming site with raw js and sass as spa and component base</p>
+![preview](https://s6.uupload.ir/files/shircloud_home_-_google_chrome_2024-01-01_16-11-39_1_d0wr.gif)
+
+<p>Music streaming site with Pure JavaScript and SASS as SPA and component base</p>
 
 ### Language and Tools:
 
@@ -32,5 +34,5 @@
 ### 3. and run project with Live Server
 <br>
 
-#### نکته: از اونجایی که این پروژه ui designer نداشت و همه چیز رو خودم ذهنی زدم توی رسپانسیو خوب از آب در نیومد.
-#### اگه خواستین رسپانسیو سایت رو چک کنین ترجیحا روی سایز های iphone 14 یا a71/51 یا s20 ultra بزارین
+ <b>نکته:</b> از اونجایی که این پروژه ui designer نداشت و همه چیز رو خودم ذهنی زدم توی رسپانسیو خوب از آب در نیومد.
+ اگه خواستین رسپانسیو سایت رو چک کنین ترجیحا روی سایز های iphone 14 یا a71/51 یا s20 ultra بزارین
