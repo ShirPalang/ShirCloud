@@ -1,6 +1,6 @@
 $primaryColor: #080808
 $secondaryColor: #ebebeb
-$thirdColor: #181818 
+$thirdColor: #181818
 
 .profile-container
     background-color: $thirdColor
@@ -20,3 +20,12 @@ $thirdColor: #181818
             h1
                 color: $secondaryColor
                 font-size: 50px
+
+@media screen and ( max-width: 640px )
+    .profile-container
+        padding: 20px
+        .information-profile
+            .profile-pic
+                width: 100px
+                height: 100px
+                margin: 0 20px
