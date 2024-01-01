@@ -15,7 +15,7 @@ template.innerHTML = `
                 <div class="media">
                     <i class="ri-instagram-line" id="instagram"></i>
                 </div>
-                <div class="media" title="رو این نزن(تورخدا)">
+                <div class="media">
                     <i class="ri-github-fill" id="github"></i>
                 </div>
                 <div class="media">
@@ -41,7 +41,7 @@ class Footer extends HTMLElement{
             location.href = 'https://www.instagram.com/shirpalang2077/'
         }
         this.shadowRoot.getElementById('github').onclick = ()=>{
-            alert('داداش گیتهاب ندارم')
+            location.href = 'https://github.com/ShirPalang/ShirCloud'
         }
         this.shadowRoot.getElementById('telegram').onclick = ()=>{
             location.href = 'https://t.me/ShirPalang_Tel'

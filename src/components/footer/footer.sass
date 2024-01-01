@@ -1,6 +1,6 @@
 $primaryColor: #080808
 $secondaryColor: #ebebeb
-$thirdColor: #181818 
+$thirdColor: #181818
 
 .footer
     width: 100%
@@ -51,3 +51,15 @@ $thirdColor: #181818
                 background-color: $secondaryColor
                 i
                     color: $thirdColor
+
+@media screen and ( max-width: 640px )
+    .footer
+        margin-top: 120px
+        height: fit-content
+        .footer-content
+            padding: 20px
+            h1
+                font-size: 40px
+            h4
+                font-size: 15px
+                line-height: 25px

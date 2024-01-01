@@ -58,4 +58,22 @@
 }
 .footer .footer-content .socialmedia .media:hover i {
   color: #181818;
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    margin-top: 120px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .footer .footer-content {
+    padding: 20px;
+  }
+  .footer .footer-content h1 {
+    font-size: 40px;
+  }
+  .footer .footer-content h4 {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }/*# sourceMappingURL=footer.css.map */
